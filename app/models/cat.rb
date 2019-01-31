@@ -33,7 +33,7 @@ class Cat < ApplicationRecord
     dependent: :destroy
 
   belongs_to :owner,
-    primary_key: :id,
+    primary_key: :id,git
     foreign_key: :user_id,
     class_name: :User
 
